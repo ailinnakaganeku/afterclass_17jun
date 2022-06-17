@@ -1,16 +1,30 @@
 .cart-btn {
-    background: none;
-    color: inherit;
-    border: none;
-    cursor: pointer;
-    outline: inherit;
-    width: 1.5rem;
-    height: 1.5rem;
-  }
-  
-  .cart-widget {
-    width: 1.5rem;
-    height: 1.5rem;
-  }
-  
-  
+  background: none;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.cart-widget {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.button__badge {
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  padding: 2px 4px;
+}
+
+.button {
+  font-size: 0.6rem;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.7rem;
+  color: white;
+  display: inline-block;
+}

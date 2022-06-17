@@ -1,9 +1,30 @@
 .landing {
-    width: 100%;
-    height: calc(100vh - 60px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button__badge {
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  padding: 2px 4px;
+}
+
+.button {
+  font-size: 0.6rem;
+  position: absolute;
+  top: 0.7rem;
+  right: 0.7rem;
+  color: white;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .button {
+    top: 0.7rem;
+    right: 3.2rem;
   }
-  
-  
+}

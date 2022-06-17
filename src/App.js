@@ -3,10 +3,10 @@ import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <>
+    <div>
       <NavBar />
       <ItemListContainer greeting="Welcome to EightShop" />
-    </>
+    </div>
   );
 }
 
