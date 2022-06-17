@@ -1,0 +1,16 @@
+.cart-btn {
+    background: none;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .cart-widget {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  
